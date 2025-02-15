@@ -1367,6 +1367,7 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para hacer el texto más legible */
   letter-spacing: 3px; /* Espaciado de letras */
   animation: fadeIn 2s ease-out; /* Animación para que aparezca gradualmente */
+  line-height: 1.2;
 }
 
 .happy-valentines h2 {
@@ -1386,8 +1387,8 @@ body {
   }
 
   .happy-valentines h2 {
-    font-size: 1.5em; /* Reducir el tamaño del texto en pantallas pequeñas */
-    padding-top: 30px; /* Reducir el espacio en la parte superior */
+    font-size: 0.5em; /* Reducir el tamaño del texto en pantallas pequeñas */
+    padding-top: 160px; /* Reducir el espacio en la parte superior */
   }
 }
 
@@ -1399,6 +1400,7 @@ body {
 
   .happy-valentines h2 {
     font-size: 1.8em; /* Ajustar el tamaño en tablets */
+    padding-top: 160px; /* Reducir el espacio en la parte superior */
   }
 }
 
