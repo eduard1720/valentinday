@@ -1359,6 +1359,7 @@ body {
   z-index: 10;
 }
 
+/* Estilo original para pantallas más grandes */
 .happy-valentines h1 {
   font-family: 'Poppins', cursive; /* Fuente bonita */
   font-size: 3em; /* Ajusta el tamaño según prefieras */
@@ -1367,6 +1368,7 @@ body {
   letter-spacing: 3px; /* Espaciado de letras */
   animation: fadeIn 2s ease-out; /* Animación para que aparezca gradualmente */
 }
+
 .happy-valentines h2 {
   font-family: 'Poppins', cursive; /* Fuente bonita */
   font-size: 2em; /* Ajusta el tamaño según prefieras */
@@ -1377,6 +1379,30 @@ body {
   padding-top: 60px;
 }
 
+/* Media Query para pantallas pequeñas (móviles) */
+@media screen and (max-width: 600px) {
+  .happy-valentines h1 {
+    font-size: 2em; /* Reducir el tamaño del texto en pantallas pequeñas */
+  }
+
+  .happy-valentines h2 {
+    font-size: 1.5em; /* Reducir el tamaño del texto en pantallas pequeñas */
+    padding-top: 30px; /* Reducir el espacio en la parte superior */
+  }
+}
+
+/* Media Query para pantallas medianas (tablets) */
+@media screen and (max-width: 1024px) {
+  .happy-valentines h1 {
+    font-size: 2.5em; /* Ajustar el tamaño en tablets */
+  }
+
+  .happy-valentines h2 {
+    font-size: 1.8em; /* Ajustar el tamaño en tablets */
+  }
+}
+
+/* Animación de aparición */
 @keyframes fadeIn {
   from {
     opacity: 0;
